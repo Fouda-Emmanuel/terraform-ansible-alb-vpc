@@ -1,0 +1,25 @@
+# Local Terraform directories (cache, modules, providers)
+.terraform/
+backend/.terraform/
+
+# Terraform state files (contain sensitive info)
+*.tfstate
+*.tfstate.backup
+backend/*.tfstate
+backend/*.tfstate.backup
+
+# Variable files with secrets (like AWS keys)
+*.tfvars
+
+# Override files (local modifications)
+override.tf
+override.tf.json
+*_override.tf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings (optional)
+.vscode/
+.idea/
